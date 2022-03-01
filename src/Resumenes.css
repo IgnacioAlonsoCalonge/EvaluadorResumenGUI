@@ -1,0 +1,201 @@
+.cards{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px rgb(214, 214, 214);
+    margin-left: 100px;
+    margin-top: 100px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.cards2{
+    width: 100%;
+    overflow: hidden;
+}
+
+.cards p{
+    font-family: "Montserrat";
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cards img{
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.5 ease;
+}
+
+.cards img:hover{
+    transform: scale(1.3);
+}
+
+.cards h4{
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.cards button{
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 2px solid #f1870e;
+    color: #f1870e;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.cards:hover{
+    box-shadow: 5px 5px 40px #000000;
+}
+
+.resumenesflex{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.resum{
+    display: flex;
+    flex-direction: column;
+    background-size: 400%;
+    background: rgb(85,249,255);
+    background: linear-gradient(180deg, rgba(85,249,255,1) 0%, rgba(106,250,255,1) 21%, rgba(109,250,255,1) 23%, rgba(142,252,255,1) 42%, rgba(142,255,254,1) 64%, rgba(107,255,251,1) 80%, rgba(255,233,142,0) 100%);
+    }
+
+.novedades{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.novedades p {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 33px;
+}
+
+.novedades h1 {
+    font-family: "Montserrat";
+    width: 400px;
+    font-size: 70px;
+    transition: all 0.5s ease 0s;
+    color: rgb(0, 0, 0);
+}
+
+.novedades button{
+    width: 200px;
+    height: 65px;
+    margin-top: 40px;
+    font-family: "Montserrat";
+    border-radius: 20px;
+    background-color: #2673a7;
+    border: none;
+    font-size: 18px;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.novedades button:hover{
+    background-color: #ff7637;
+}
+
+.novedades h1:hover{
+    color: #ff0808;
+}
+
+.primerabarra{
+    display: flex;
+    height: 500px;
+    background-size: 400%;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+.lottiex{
+    width: 600px;
+}
+
+#boton_resumen{
+    margin-right: 20px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #2673a7;
+    transition: all 0.5s ease 0s;
+}
+
+#boton_resumen:hover{
+    transform: scale(1.3);
+}
+
+.cards_2{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px rgb(214, 214, 214);
+    margin-left: 100px;
+    margin-top: 100px;
+    overflow: hidden;
+    background-color: rgb(63, 58, 58);
+    
+}
+
+.cards_2 p{
+    font-family: "Montserrat";
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.cards_2 img{
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.5 ease;
+    filter: grayscale(100%);
+}
+
+.cards_2 img:hover{
+    transform: scale(1.3);
+}
+
+.cards_2 h4{
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: white;
+}
+
+.cards_2 button{
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 2px solid #575353;
+    color: #575353;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.cards_2:hover{
+    box-shadow: 5px 5px 40px #000000;
+}
+
+.botonescolocados{
+    display: flex;
+}
